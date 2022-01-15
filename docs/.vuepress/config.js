@@ -1,7 +1,7 @@
 // 注意: base的值为github仓库的名称
 module.exports = {
   base: '/my_docs/', /* 基础虚拟路径: */
-  dest: 'dist', /* 打包文件基础路径, 在命令所在目录下 */
+  dest: 'docs/.vuepress/dist', /* 打包文件基础路径, 在命令所在目录下 */
   title: 'TypeScript 入门', // 标题
   description: '学习使用 TypeScript', // 标题下的描述
   themeConfig: { // 主题配置
